@@ -7,13 +7,14 @@
   width: 100%;
   height: 70px;
   color: white;
-  padding-left: 20px;
+  
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 .Modal{
+  
   width: 100px;
   bottom: 40px;
   margin: 10px;
@@ -23,19 +24,24 @@
   font-weight: bolder;
 }
 
-.aist {
-    width:30%;
-    display: flex;
-    float : left;
-    display: flex;
-    margin: 10px;
-}
-.jinse{
-  
-  margin-left: 10px;
-  margin-bottom: 30px;
+.newjinse1{
+  display: flex;
 }
 
+.aist {
+    width:30%;
+    float : left;  
+}
+.jinse{
+  width: 120px;
+  height: 80px;
+  margin-top: 5%;  
+}
+
+.new {
+  width: 50px;
+  height: 50px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -54,29 +60,29 @@
   color: white;
 }
 .s1 {
-  margin-right: 50px;
+  margin-right: 10px;
   background-color: Tomato;
   font-size: 20px;
-  position: absolute;
-  bottom: 40px;
-  right: 770px;
+  right: 670px;
 }
 
 .s2 {
-  margin-right: 30px;
+  margin-right: 10px;
   background-color: SlateBlue;
   font-size: 20px;
-  position: absolute;
-  bottom: 40px;
-  right: 720px;
+  right: 670px;
 }
 .s3 {
-  
   background-color:chartreuse ;
   margin-right: 10px;
   font-size: 20px;
-  position: absolute;
-  bottom: 40px;
+  right: 670px;
+}
+
+.s4 {
+  background-color:rgb(152, 173, 57) ;
+  margin-right: 10px;
+  font-size: 20px;
   right: 670px;
 }
 
@@ -84,15 +90,6 @@
   color: #61dafb;
 }
 
-.new {
-  width: 50px;
-  height: 50px;
-}
-
-.jinse{
-  width: 100px;
-  height: 80px;
-}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
